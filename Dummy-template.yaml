@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   # unique name per namespace for the template
-  name: Java-general-svc-1
+  name: OBA_spec_service
   # title of the template
-  title: Java General Svc 1
+  title: OBA Spec Service
   # a description of the template
   description: Open Bank Accelerator microservices to make your bank Open Banking compliant
   # some tags to display in the frontend
@@ -16,7 +16,7 @@ spec:
   # what does this template create
   type: website
   # if the template is not in the current directory where this definition is kept then specify
-  path: '/Users/Paridhi_Mohindra/backstage-final/cookiecutter-java'
+  path: '/Paridhi-Mohindra/OBA_cookiecutter_template'
   # the schema for the form which is displayed in the frontend.
   # should follow JSON schema for forms: https://jsonforms.io/
   schema:
