@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  # unique name per namespace for the template
+  name: Java-general-svc-1
+  # title of the template
+  title: Java General Svc 1
+  # a description of the template
+  description: Open Bank Accelerator microservices to make your bank Open Banking compliant
+  # some tags to display in the frontend
+  tags:
+    - recommended
+spec:
+  # which templater key to use in the templaters builder
+  templater: cookiecutter
+  # what does this template create
+  type: website
+  # if the template is not in the current directory where this definition is kept then specify
+  path: '/Users/Paridhi_Mohindra/backstage-final/cookiecutter-java'
+  # the schema for the form which is displayed in the frontend.
+  # should follow JSON schema for forms: https://jsonforms.io/
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Description of the component
