@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   # unique name per namespace for the template
-  name: Open Bank Project
+  name: open_bank_project
   # title of the template
   title: Open Bank Project
   # a description of the template

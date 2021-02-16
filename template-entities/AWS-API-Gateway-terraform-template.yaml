@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   # unique name per namespace for the template
-  name: AWS API Gateway
+  name: aws-api-gateway
   # title of the template
   title: Terraform Script for AWS API Gateway
   # a description of the template

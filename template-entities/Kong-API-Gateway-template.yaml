@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   # unique name per namespace for the template
-  name: Kong-API-Gateway
+  name: kong-api-gateway
   # title of the template
   title: Kong API Gateway
   # a description of the template

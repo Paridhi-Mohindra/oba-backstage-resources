@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   # unique name per namespace for the template
-  name: OBA_spec_service
+  name: oba_spec_service
   # title of the template
   title: OBA Spec Service
   # a description of the template
