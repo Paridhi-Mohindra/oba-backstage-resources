@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: Accounts and Transactions
-  description: OBA Account API
+  name: accounts_and_transactions
+  description: OBA Account APIs
   tags:
     - oba
     - accounts
