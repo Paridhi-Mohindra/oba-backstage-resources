@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: oba-apis
+  description: A collection of Open Banking APIs
+spec:
+  targets:
+    - ./api-entities/accounts-and-transactions.yaml
+    - ./api-entities/payment-initiation.yaml
