@@ -10,7 +10,7 @@ metadata:
   # some tags to display in the frontend
   tags:
     - recommended
-    - AWS
+    - aws
 spec:
   # which templater key to use in the templaters builder
   templater: cookiecutter
