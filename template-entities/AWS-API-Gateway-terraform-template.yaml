@@ -10,13 +10,14 @@ metadata:
   # some tags to display in the frontend
   tags:
     - recommended
+    - AWS
 spec:
   # which templater key to use in the templaters builder
   templater: cookiecutter
   # what does this template create
-  type: website
+  type: service
   # if the template is not in the current directory where this definition is kept then specify
-  path: '/Paridhi-Mohindra/OBA-cookiecutter-template'
+  path: '/Paridhi-Mohindra/terraform-aws-api-gw-cookiecutter-template'
   # the schema for the form which is displayed in the frontend.
   # should follow JSON schema for forms: https://jsonforms.io/
   schema:
