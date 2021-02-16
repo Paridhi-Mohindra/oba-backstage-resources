@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  # unique name per namespace for the template
+  name: AWS API Gateway
+  # title of the template
+  title: Terraform Script for AWS API Gateway
+  # a description of the template
+  description: Automating the setup of AWS API Gateway using Terraform
+  # some tags to display in the frontend
+  tags:
+    - recommended
+spec:
+  # which templater key to use in the templaters builder
+  templater: cookiecutter
+  # what does this template create
+  type: website
+  # if the template is not in the current directory where this definition is kept then specify
+  path: '/Paridhi-Mohindra/OBA-cookiecutter-template'
+  # the schema for the form which is displayed in the frontend.
+  # should follow JSON schema for forms: https://jsonforms.io/
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Description of the component

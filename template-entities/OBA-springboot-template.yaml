@@ -6,7 +6,7 @@ metadata:
   # title of the template
   title: OBA Spec Service
   # a description of the template
-  description: Open Bank Accelerator microservices to make your bank Open Banking compliant
+  description: Open Bank Accelerator microservices to make your bank Open Banking compliant.
   # some tags to display in the frontend
   tags:
     - recommended
