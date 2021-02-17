@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: OBA
+  title: Open Banking Accelerator Documentation
+  description: Documentation for OBA
+  tags:
+    - recommended
+    - techdocs
+    - mkdocs
+spec:
+  owner: backstage/techdocs-core
+  templater: cookiecutter
+  type: documentation
+  path: './landing-page.md'
+
+  schema:
+    required:
+      - component_id
+      - description
+    properties:
+      component_id:
+        title: Name
+        type: string
+        pattern: ^[a-z0-9A-Z_.-]{1,63}$
+        description: Unique name of the component
+      description:
+        title: Description
+        type: string
+        description: Help others understand what these docs are about.
