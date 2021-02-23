@@ -25,6 +25,8 @@ spec:
       version: v3.1.6
     servers:
     - url: https://fzoomv2a4a.execute-api.us-east-2.amazonaws.com/alpha/accounts-service
+    - url: http://localhost:8000/obs-account-info
+    
     paths:
       /account-access-consents:
         post:
