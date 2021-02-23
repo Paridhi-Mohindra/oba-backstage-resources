@@ -6,10 +6,10 @@ Welcome to our product page of Open Banking Accelerator. Open Banking Accelerato
 
 We provide a set of tools out of the box which you can plug and play to get started quickly. The tools are as follows -
 
-1. Backstage Scaffolder - with the power of backstage scaffolder, you can create your initial code respositories in your remote organization repositories very quickly with all the starter code already written. You just have to integrate with your backend services. You can choose to scaffold the following templates from the create menu on the left hand side of the Backstage page -
+Backstage Scaffolder - with the power of backstage scaffolder, you can create your initial code respositories in your remote organization repositories very quickly with all the starter code already written. You just have to integrate with your backend services. You can choose to scaffold the following templates from the create menu on the left hand side of the Backstage page -
 
-   1. OBA-Spec_service - This provides a adapter service which accepts open banking APIs and returns the responses in the desired format. The services should call the bank's internal APIs in Core banking systems to get the appropriate response. The conversion will be different for the each bank.
-   2. OBA-Kong_gateway - Kong is a popular gateway service. All the APIs reaching OBA-Spec_service pass through it.
+1. OBA-Spec_service - This provides a adapter service which accepts open banking APIs and returns the responses in the desired format. The services should call the bank's internal APIs in Core banking systems to get the appropriate response. The conversion will be different for the each bank.
+2. OBA-Kong_gateway - Kong is a popular gateway service. All the APIs reaching OBA-Spec_service pass through it.
 
 
 ### OBA Architecture
