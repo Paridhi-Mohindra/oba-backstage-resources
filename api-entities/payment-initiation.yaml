@@ -24,7 +24,6 @@ spec:
         url: https://www.openbanking.org.uk/open-licence
       version: v3.1.6
     servers:
-    - url: /open-banking/v3.1/pisp
     - url: http://localhost:8000/obs-payment-initiation
     paths:
       /domestic-payment-consents:
