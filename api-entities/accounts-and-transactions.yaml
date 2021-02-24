@@ -24,7 +24,7 @@ spec:
         url: https://www.openbanking.org.uk/open-licence
       version: v3.1.6
     servers:
-    - url: http://127.0.0.1:8000/obs-account-info
+    - url: http://localhhost:8000/obs-account-info
     
     paths:
       /account-access-consents:
